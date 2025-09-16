@@ -250,19 +250,23 @@ vercel --prod
 
 **Overall Completion: 100%** 🎉
 
-## 📝 Environment Variables
 
-### Backend (.env)
 ```env
-MONGODB_URI=your_mongodb_connection_string
-JWT_SECRET=your_jwt_secret
-NODE_ENV=development|production
+API_URL=http://localhost:5000/api
 ```
 
-### Frontend (.env.production.local)
+Create a `.env.production` file in the `frontend` directory for production:
+
 ```env
-REACT_APP_API_URL=https://your-backend-url.vercel.app/api
+
 ```
+
+## 🚀 Live Deployment URLs
+
+- **GitHub Repository:** https://github.com/sakethBainagari/mini_CRM
+- **Backend API:** https://mini-crm-backend-kgae.onrender.com
+- **Frontend:** [Your Vercel URL - Deployed]
+- **Database:** MongoDB Atlas (Cluster1)
 
 ## 🤝 Contributing
 
@@ -283,3 +287,13 @@ For any questions or issues, please create an issue in the repository.
 ---
 
 **Built with ❤️ for Dev Innovations Labs Assignment**
+
+**Live Demo:**
+- Frontend: [Your Vercel URL]
+- Backend API: https://mini-crm-backend-kgae.onrender.com
+- Repository: https://github.com/sakethBainagari/mini_CRM
+
+**Environment Variables Summary:**
+- **MongoDB URI:** `mongodb+srv://saketh7727_db_user:Saketh2727@cluster1.utfeend.mongodb.net/mini-crm`
+- **JWT Secret:** `mySuperSecretKey123`
+- **API URL:** `https://mini-crm-backend-kgae.onrender.com`
